@@ -9,7 +9,7 @@ Source0:	https://github.com/baskerville/%{name}/archive/%{version}/%{name}-%{ver
 
 BuildRequires:	systemd
 BuildRequires:	pkgconfig(xcb-util)
-BuildRequires:	libxcb-util-keysyms-devel
+BuildRequires:	pkgconfig(xcb-keysyms)
 
 %description
 sxhkd is an X daemon that reacts to input events by executing commands.
