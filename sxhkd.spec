@@ -3,6 +3,7 @@ Name:		sxhkd
 Version:	0.6.2
 Release:	1
 License:	BSD
+Group:		Development/X11
 URL:		https://github.com/baskerville/%{name}
 Source0:	https://github.com/baskerville/%{name}/archive/%{version}/%{name}-%{version}.tar.gz
 
